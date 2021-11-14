@@ -6,7 +6,7 @@
 }
 <h2>Books</h2>
 
-<table class ="table table-bordered table-hover">
+<table class="table table-bordered table-hover">
     <thead>
         <tr>
             <th>Book</th>
@@ -14,11 +14,11 @@
     </thead>
     <tbody>
         @foreach (var book in Model)
-            {
-                <tr>
-                    <td>@Html.DisplayFor(modelItem => book.Name)</td>
-                </tr>
-            }
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => book.Name)</td>
+            </tr>
+        }
     </tbody>
-    
+
 </table>
